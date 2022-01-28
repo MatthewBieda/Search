@@ -1,0 +1,83 @@
+form {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 25%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 24px;
+    background-color: white;
+    background-image: url("searchicon.svg");
+    background-position: 8px 3px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+input[type=text]:hover {
+    box-shadow: 0 0 8px grey; 
+    border: 0px solid grey;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+input[type=submit] {
+    background-color: #f8f9fa;
+    padding: 8px 13px;
+    margin: 15px 4px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover {
+    box-shadow: 0 0 3px grey; 
+    border: 0px solid grey;
+}
+
+input[type=submit]:focus {
+    border: 1px solid #4285f4;
+}
+
+#advanced_form {
+    text-align: left;
+}
+
+#advanced_input1 {
+    all: revert;
+    width: 25%;
+    position: absolute;
+    left: 12%;
+}
+
+#advanced_input2 {
+    all: revert;
+    width: 25%;
+    position: absolute;
+    left: 12%;
+}
+
+#advanced_input3 {
+    all: revert;
+    width: 25%;
+    position: absolute;
+    left: 12%;
+}
+
+#advanced_input4 {
+    all: revert;
+    width: 25%;
+    position: absolute;
+    left: 12%;
+}
+
+#advanced_button {
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    position: absolute;
+    left: 30.25%;
+}
